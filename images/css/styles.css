@@ -546,6 +546,11 @@ button {
 .footer-input-label {
   display: flex;
   gap: 24px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2px;
+  padding-left: 16px;
+  letter-spacing: 0.04em;
 }
 
 .footer-input {
