@@ -157,7 +157,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg.jpg);
+    url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -502,7 +502,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -534,51 +534,65 @@ button {
   fill: #f4f4fd;
 }
 
-.footer-label {
-  display: block;
+.footer-form-title {
   margin-bottom: 16px;
 }
 
-.footer-inp-btn {
+.footer-form {
   display: flex;
+  gap: 24px;
+}
+
+.footer-input-label {
+  display: flex;
+  gap: 24px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2px;
+  padding-left: 16px;
+  letter-spacing: 0.04em;
 }
 
 .footer-input {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
+  width: 100%;
   height: 40px;
-  background-color: #2e2f42;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
-  padding: 8px 24px;
-  color: #fff;
+  padding: 0;
+  padding: 16px;
+
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+
+  background-color: transparent;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #fff;
-  border-radius: 4px;
-  padding: 8px 24px;
-  max-width: 165px;
-  height: 40px;
+  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  gap: 16px;
+  border-radius: 4px;
+
+
 }
 
 .footer-btn:hover,
@@ -588,9 +602,13 @@ button {
 
 .footer-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
+  
 }
 
 /*-------------FOOOTER----------*/
+
+/*-------------MODAL----------*/
 
 .backdrop {
   width: 100%;
