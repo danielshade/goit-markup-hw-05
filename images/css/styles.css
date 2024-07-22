@@ -574,20 +574,18 @@ button {
   min-width: 165px;
   height: 40px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 16px;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  background-color: #4d5ae5;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -600,6 +598,7 @@ button {
 .footer-btn-icon {
   fill: #ffffff;
   margin-left: 16px;
+  
 }
 
 /*-------------FOOOTER----------*/
