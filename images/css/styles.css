@@ -157,7 +157,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../hero-img.jpg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -549,7 +549,6 @@ button {
   background-color: transparent;
   font-size: 12px;
   line-height: 2px;
-  padding-left: 16px;
   letter-spacing: 0.04em;
 }
 
